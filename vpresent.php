@@ -410,7 +410,8 @@
 			<input type="hidden" id="hidFilename" name="hidFilename" value="<?= $sess_filename ?>" > 
 			<input type="hidden" id="hidFileid" name="hidFileid" value="<?= $sess_fileid ?>" >
 			<input type="hidden" id="hidAnnotationSelected" name="hidAnnotationSelected" value=""  > 
-			<div id="divStopPresent" style="display:inline-block; margin:0px;">
+			<div id="divStopPresent" style="display:inline-block; margin:0px;z-index: 99999999;
+    position: absolute;">
 				<table border="0" cellspacing="0" cellpadding="0" width="100%">
 					<tr>
 						<td width="100%">
@@ -571,7 +572,7 @@
 
 								<!-- move to here -->
 
-								<div class="splitToolbarButton page-next-prev" style="width: inherit;">
+								<div class="splitToolbarButton page-next-prev" style="width: 44%;font-size: 75%;">
 									<div class=" pageUp previous-btn hvr-skew-backward" title="Previous Page" id="previous" tabindex="6" data-l10n-id="previous">
 										<img src="images/button/prevpage.png">
 										<span data-l10n-id="previous_label">Previous</span>
@@ -583,7 +584,7 @@
 								</div>
 
 							</div>
-							<div id="toolbarViewerRight" class="toolbar-device" style="width: 40%">
+							<div id="toolbarViewerRight" class="toolbar-device" style="width: 52%">
 								<!-- =============================================================================================== -->
 								<!--  <div id="divFuncTools" style="width: 100%; display:inline-block; margin:0px;">
 									<table border="0" cellspacing="0" cellpadding="0" style="float:left;">
@@ -906,7 +907,7 @@
 					<menuitem id="contextPageRotateCw" label="Rotate Clockwise" data-l10n-id="page_rotate_cw"></menuitem>
 					<menuitem id="contextPageRotateCcw" label="Rotate Counter-Clockwise" data-l10n-id="page_rotate_ccw"></menuitem>
 				</menu>
-				<div id="viewerContainer" style="margin-top: 6%!important;" class="view-hori" tabindex="0">
+				<div id="viewerContainer"  class="view-hori" tabindex="0">
 					<div id="viewer" style=""></div>
 				</div>
 				<div id="errorWrapper" hidden='true'>
