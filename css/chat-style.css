@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+body{
+    background: #fff;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    margin: 0pt;
+    cursor: default;
+    height: 100%;
+    text-align: center;
+}
+html {
+    height: 100%;
+    text-align: center;
+}
+#form {
+    margin: 5em auto 3em;
+    width: 300px;
+}
+#form table td {
+    text-align: left;
+    font-size: 11px;
+}
+#form label {
+    font-weight: 700;
+}
+#form input {
+    border: 1px solid #d0ccc9;
+    background: #fff;
+    color: #5f95ef;
+    font-size: 11px;
+    font-weight: 700;
+}
+#form input.text {
+    font-weight: normal;
+    color: #565656;
+    border: 1px solid #9c9c9c;
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#form input.checkbox {
+    border: 0px solid #9c9c9c;
+}
+#form input.text.user {
+    width: 100px;
+}
+#container {
+    margin: 1em auto;
+    width: 750px;
+}
+.content {
+    margin: 0pt auto;
+    background: #efefef;
+    background: #fff;
+    border: 1px solid #d0ccc9;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 11px;
+}
+.content h1 {
+    line-height: 1em;
+    vertical-align: middle;
+    height: 48px;
+    padding: 10px 10px 10px 52px;
+    font-size: 32px;
+    background: transparent url(images/bubblecover.png) no-repeat scroll left top;
+    text-align: center;
+}
+.date {
+    font-weight: normal;
+    font-size: 10px;
+    color: #aeaeae;
+    font-style: italic;
+}
+.iframe_title {
+    background-color: green;
+    color: white;
+}

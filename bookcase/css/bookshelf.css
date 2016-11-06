@@ -1,0 +1,300 @@
+
+@media(max-width: 900px) and (min-width: 400px){
+	body{font-size: 1.2em!important;}
+	.content2 {
+		top: 42px!important; 
+	}
+	.content3 {
+		top: 29.5%;
+	}
+	.content4 {
+		top: 53%;
+	}
+	.col-xs-4 {
+		width: 28.333333%!important;
+	}
+	.selectAt {
+		margin-left: -25px;
+	}
+	.col-xs-12{
+		padding-left: 0!important;
+	}
+	.col-xs-1{
+	    padding-left: 6px;
+	}
+	.upload{
+	    font-size: 12px!important;
+	        padding: 6px 6px!important;
+	        width: 200px!important;
+	        margin: 3px 0 0 0!important;
+	}
+
+	.upload-btn{
+		    right: -237px!important;
+		    margin: 3px 0 0 0!important;
+	}
+	.LogoutBtn-com {
+		right: 0px!important;
+	}
+}
+
+
+
+@media (max-width: 900) and (min-width: 700)	{
+	body{font-size: 1.2em!important;}
+	.content2 {
+		top: 30px!important; 
+	}
+	.content3 {
+		top: 29.5%;
+	}
+	.content4 {
+		top: 53%;
+	}
+	.col-xs-4 {
+		width: 28.333333%!important;
+	}
+	.selectAt {
+		margin-left: -25px;
+	}
+	.upload-btn{
+
+	}
+	
+}
+
+
+@media(min-width: 1000px) and (max-width: 1150px){
+	body{font-size: 1.5em!important;}
+	.content2 {
+		top: 11.5%!important; 
+	}
+	.content3 {
+		top: 35.5%!important;
+	}
+	.content4 {
+		top: 59.5%!important;
+	}
+	.col-xs-4 {
+		width: 35.333333%!important;
+		 padding-top: 31px!important;
+
+	}
+	.btn{
+		padding: 6px 12px!important;
+	}
+	.btn-info{
+	width: 53%!important;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0px;
+    margin: 8px 0px 0px;
+    float: left!important;
+	}
+	.btn-danger {
+	width: 90px;
+    display: inline-block;
+    padding: 0px;
+    font-size: 1em!important;
+    margin: 8px 0px 0px!important;
+    float: right!important;
+	}
+	.menu-select{
+		width: 21%!important;
+		padding-left: 19px!important; 
+	}
+	.LogoutBtn-com{
+		width: 9.333333%!important;
+	}
+	.select-com {
+		margin-left: -6%!important;
+	}
+	.upload-btn {
+		right: -325px!important;
+	}
+}
+
+@media (min-width: 1200px){
+	body{font-size: 1.5em!important;}
+	.content2 {
+		top: 66px!important; 
+	}
+	.content3 {
+		top: 282px!important;
+	}
+	.content4 {
+		top: 498px!important;
+	}
+	.col-xs-4 {
+		width: 33.333333%!important;
+		top: 0px!important;
+	}
+	.col-xs-1 {
+		right: 20px!important;
+	}
+	.file {
+		padding-top: 2%!important;
+	}
+	.spr {
+		height: 10px;
+		width :100%;
+	}
+	.btn{
+		padding: 6px 12px!important;
+	}
+	.btn-info{
+	width: 53%!important;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0px;
+    margin: 8px 0px 0px;
+    float: left!important;
+	}
+	.btn-danger {
+	width: 90px;
+    display: inline-block;
+    padding: 0px;
+    font-size: 1em!important;
+    margin: 8px 0px 0px!important;
+    float: right!important;
+	}
+	.menu-select{
+		width: 19%!important; 
+	}
+	.LogoutBtn-com{
+		width: 9.333333%!important;
+	}
+
+
+}
+
+
+
+body{
+	
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-size: 13px;
+	background: url("../img/wood_floor_background.jpg");
+	/*background-size: 100%;*/
+	position: fixed;
+}
+.header{
+	margin: 0;
+	background: rgba(255,255,255, 0.5);
+	height: 60px;
+}
+.content{
+	background-size: cover;
+	height: 38%;
+	width: 100%;
+	background-repeat: repeat;
+	background-position: center;
+	position: inherit;
+	z-index: 9999;
+	clear: none;
+}
+.content2{
+	background-size: cover;
+	width: 100%;
+	top: 9%;
+	/* height: 39%; */
+	min-height: 170px;
+	background-repeat: repeat;
+	background-position: center;
+	position: fixed;
+	z-index: -1;
+}
+.content3{
+	background-size: cover;
+	width: 100%;
+	top: 32.5%;
+	/* height: 39%; */
+	min-height: 170px;
+	background-repeat: repeat;
+	background-position: center;
+	position: fixed;
+	z-index: -1;
+}
+.content4{
+	background-size: cover;
+	width: 100%;
+	top: 56%;
+	/* height: 39%; */
+	min-height: 170px;
+	background-repeat: repeat;
+	background-position: center;
+	position: fixed;
+	z-index: -1;
+}
+
+.fileUpload{
+    position: relative;
+    overflow: hidden;
+    margin-top: 4px;
+}
+.fileUpload input.upload{
+	
+    position: absolute;
+    top: 0;
+    width: 5px;
+    font-size: 20px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.head{
+	position: relative;
+    overflow: hidden;
+    margin-top: 8px;
+
+}
+.file{
+	padding-top: 10px;
+    margin-right: -55px;
+    margin-left: 20px;
+	/*margin-left: 100px*/
+}
+.filename{
+	
+	font-size:16px;
+}
+.select{
+	height: 100px;
+    width: 20px;
+    position: absolute;
+}
+
+.upload  {
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 6px 12px;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-radius: 4px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	}
+
+	.upload-btn{
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 6px 12px;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-radius: 4px;
+}
+
+

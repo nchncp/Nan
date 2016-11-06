@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.HomeCSS{
+	background-color:#FFFFD6;
+	border-color:#000000;
+	width:400px;
+	height:50%;
+	text-align: left;
+}
+
+#tbHidden{
+	background-color:#E6E6E6;
+	border-color:#000000;
+	width:400px;
+}
+
+
+input[type="button"]{
+	width:90%;
+	padding:1%;
+	font-weight:bold; 
+	font-size:16px;
+	background-color:#CC6600; 
+	color:#FFFFFF;
+	border:none;
+	cursor:pointer;
+}
+
+input[type="password"]{
+	width:90%;
+	font-size:16px;
+	background-color:#FFFFFF; 
+	border:none;
+}
+
+
+input[type="text"]{
+	width:90%;
+	font-size:16px;
+	background-color:#FFFFFF;
+	border:none; 
+}
+
+.error{
+	color:#CC0000;
+	font-size:14px;
+	font-weight:bold; 
+	background-color:#FFFF66;
+}
+
+a{
+	color:#993300;
+	font-weight:bold; 
+	
+}

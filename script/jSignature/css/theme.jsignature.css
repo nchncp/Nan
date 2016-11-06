@@ -1,0 +1,34 @@
+#signatureparent {
+	color:darkblue;
+	/*background-color:darkgrey;*/
+	padding:0;
+	/*margin-left:5px;
+	/*max-width:350px;*/
+	/*width:842px;
+	min-width:842px;*/
+}
+
+/* This is the div within which the signature canvas is fitted */
+
+#signature{
+	border:none;
+	/*background-color:lightgrey;*/
+	padding:0;
+}
+
+
+/*  Drawing the 'gripper' for touch-enabled devices  */ 
+html.touch #content {
+	float:left;
+	width:92%;
+}
+
+html.touch #scrollgrabber {
+	float:right;
+	width:4%;
+	margin-right:2%;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAFCAAAAACh79lDAAAAAXNSR0IArs4c6QAAABJJREFUCB1jmMmQxjCT4T/DfwAPLgOXlrt3IwAAAABJRU5ErkJggg==)
+}
+html.borderradius #scrollgrabber {
+	border-radius: 1em;
+}
